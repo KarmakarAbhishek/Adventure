@@ -139,6 +139,9 @@ section {
 .events .row {
     margin-top: 50px;
 }
+.events .row .col p {
+    font-size: 2vmin;
+}
 
 h4 {
     font-size: 3vmin;
