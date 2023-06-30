@@ -31,6 +31,10 @@ ul {
     color: whitesmoke;
 }
 
+.navbar .nav-link li a {
+    color: whitesmoke;
+}
+
 .nav-link {
     display: flex;
     align-items: center;
@@ -334,8 +338,8 @@ img:hover {
     color: #fc036b;
     box-shadow: 2px 2px 5px rgb(0, 26, 255);
 }
-li:hover{
+
+li:hover {
     color: #fc036b;
     cursor: pointer;
 }
-
