@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-link">
+            <li class="active"><a href=""></a>Home</li>
+            <li><a href=""></a>Tour</li>
+            <li><a href=""></a>Explore</li>
+            <li><a href=""></a>About</li>
+            <li class="ctn"><a href=""></a>Contact</li>
+        </ul>
+        <!-- <img src="menu_btn.jpeg" alt="" class="menu-btn"> -->
+        <i class="fa-solid fa-bars" id="menu-btn"></i>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the colorful world</h2>
+            <div class="line"></div>
+            <h1>A wonderful Gift</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+
+    </header>
+    <!-- .............Events........... -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="pose.jpeg" alt="">
+                <h4>Silk Route Journey</h4>
+                <p>ahishfiwfwhfwhf </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="picture.jpeg" alt="">
+                <h4>Walking Holidays</h4>
+                <p>ahishfiwfwhfwhf </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <P>East sikkim quote</P>
+            <a href="#" class="ctn"> Learn more</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATIONS</h1>
+                <div class="line"></div>
+                <P>Write something about next tours Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis fugiat nisi ratione aut incidunt. Officiis eos ipsum iste, tenetur suscipit ab eaque quas at nisi corporis excepturi mollitia facilis quidem nostrum! Voluptatum nemo fuga incidunt expedita voluptatem officia ratione commodi, mollitia tempora sit earum hic? Repellat dolor iste distinctio accusamus?</P>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="image (3).jpeg" alt="" class="im1">
+                    <img src="image (2).jpeg" alt="">
+                    <img src="raft (1).jpeg" alt="">
+                    <img src="image (1).jpeg" alt="">
+                    
+                    <video src="VID-20230612-WA0037.mp4" height="200px" width="200px" controls></video>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, iste sapiente ab fugiat dolorem cumque enim ipsam vitae. Consequatur, molestiae!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, magnam!</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('#menu-btn');
+        const navlink = document.querySelector('.nav-link');
+
+        menuBtn.addEventListener('click', () => {
+            navlink.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
