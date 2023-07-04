@@ -163,7 +163,7 @@ p {
     width: 100%;
     height: 80vh;
     background: url(image/dab.jpeg) no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -305,6 +305,11 @@ p {
     }
 
     /* explore */
+    .explore {
+        max-width: 100vw;
+        height: 350px;
+        background-size: contain;
+    }
     .explore-content {
         width: 100%;
     }
